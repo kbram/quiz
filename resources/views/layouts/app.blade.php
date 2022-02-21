@@ -14,12 +14,12 @@
         <meta name="author" content="Karunaaharan Bavaram">
 
         <title>Laravel</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="custom-font/fonts.css" />
+        <link href="{{ asset('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('custom-font/fonts.css') }}" />
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="{{ asset('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap')}}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
