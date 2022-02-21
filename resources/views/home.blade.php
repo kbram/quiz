@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container"  style="margin-top:100px;margin-bottom:100px;">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -15,7 +16,24 @@
                     @endif
                     {{-- {{ implode(', ',$user->roles()->get()->pluck('name')->toArray())}}{{ $user->name }}  --}}
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in! ') }}
+                  
+                       
+                            {{ Auth::user()->name }}
+                       
+
+                   <br>
+                            <a class="" href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        
+                </ul>
                 </div>
             </div>
         </div>
