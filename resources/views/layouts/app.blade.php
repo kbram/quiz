@@ -8,9 +8,9 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <meta name="description" content="Hydroponics Farm">
+        <meta name="description" content="-">
         <meta name="keywords"
-            content="Hydroponics,Farm,Auto,Bavaram,Vavuniya Campus,Jaffna University,new,technology,Karunaaharan Bavaram,Bavaram Karunaaharan,bavar,automation,IoT,auto farm,auto farming">
+            content="-">
         <meta name="author" content="Karunaaharan Bavaram">
 
         <title>Laravel</title>
