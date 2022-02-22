@@ -58,8 +58,8 @@ In order to ensure that the Laravel community is welcoming to all, please review
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 
-### Installation Instructions
-1. Run `git clone https://github.com/jeremykenedy/laravel-auth.git laravel-auth`
+## Installation Instructions
+1. Run `https://github.com/kbram/BoilerPlate.git`
 2. Create a MySQL database for the project
     * ```mysql -u root -p```, if using Vagrant: ```mysql -u homestead -psecret```
     * ```create database laravelAuth;```
