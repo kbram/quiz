@@ -59,7 +59,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 
 ## Installation Instructions
-1. Run `https://github.com/kbram/BoilerPlate.git`
+1. Run `https://github.com/kbram/Quiz.git`
 2. Create a MySQL database for the project
     * ```mysql -u root -p```, if using Vagrant: ```mysql -u homestead -psecret```
     * ```create database laravelAuth;```
