@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.welcome');
 });
 
 Route::get('/contactUs', function () {
@@ -23,6 +23,19 @@ Route::get('/contactUs', function () {
 Route::get('/aboutUs', function () {
     return view('pages.aboutUs');
 });
+Route::get('/courses', function () {
+    return view('pages.courses');
+});
+Route::get('/trainers', function () {
+    return view('pages.trainers');
+});
+Route::get('/events', function () {
+    return view('pages.events');
+});
+Route::get('/pricing', function () {
+    return view('pages.pricing');
+});
+
 Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
